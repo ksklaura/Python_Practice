@@ -118,3 +118,34 @@ print(name, "는 어른일까요? ", is_adult)
 
 station = "사당"
 print(station+"행 열차가 들어오고 있습니다.")
+
+print(1 != 3)
+print(not(1 != 3))
+print((3 > 0) & (3 < 5))
+print((3 > 0) | (3 < 5))
+
+print(abs(-5)) # -5의 절대값 = 5
+print(pow(4, 2)) # 4^2 = 16
+print(max(5, 12)) # 최대값 = 12
+print(min(5, 12)) # 최소값 = 5
+print(round(3.14)) # 반올림 = 3
+print(round(4.99)) # 반올림 = 5
+
+from math import *
+print(floor(4.99)) # 내림 = 4
+print(ceil(3.14)) # 올림 = 4
+print(sqrt(16)) # 제곱근 = 4
+
+from random import *
+print(random()) # 0.0 ~ 1.0 사이의 임의값 생성
+print(randint(1, 10)) # 1 ~ 10 사이의 임의값 생성
+print(random() < 0.5) # 0.0 ~ 0.5 사이의 임의값 생성
+print(random() > 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random() <= 0.5) # 0.0 ~ 0.5 사이의 임의값 생성
+print(random() >= 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random()!= 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random() == 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random()!= 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random() == 0.5) # 0.5 ~ 1.0 사이의 임의값 생성
+print(random() * 10) # 0.0 ~ 10.0 사이의 임의값 생성
+print(int(random() * 10 + 1)) # 1 ~ 10 사이의 임의값 생성
