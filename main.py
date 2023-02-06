@@ -16,3 +16,17 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 print("안녕안녕")
+
+a=3
+if a>1:
+    print("a is greater than 1")
+elif a<1:
+    print("a is less than 1")
+
+for a in [1,2,3]:
+    print(a)
+
+i = 0
+while i < 3:
+    i=i+1
+    print(i)
