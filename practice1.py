@@ -185,3 +185,13 @@ my_str = my_str[:my_str.index(".")]
 print(my_str)
 password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
 print("{0}의 비밀번호는 \"{1}\"입니다.".format(url, password))
+
+
+cabinet = {3: "김수경", 4: "수경"}
+print(cabinet[3])
+print(cabinet.get(4))
+print(cabinet.get(5, "available")) # 5가 있으면 출력하고, 5라는 key가 없는 경우 "available" 출력
+print(3 in cabinet) # True
+cabinet[4] = "김수" # key에 대한 value값 변경
+cabinet[5] = "경수" # key 추가
+print(cabinet)
