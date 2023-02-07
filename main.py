@@ -179,7 +179,7 @@ print(f"나는 {age}살이며, {color}색을 좋아해요.")
 # 규칙 3 : 남은 글자 중 처음 세 자리 + 글자 갯수 + 글자 내 'e' 갯수 + "!"로 구성
 # 예) 생성된 비밀번호 : nav51!
 
-url = "http://google.com"
+url = "http://naver.com"
 my_str = url.replace("http://", "")
 my_str = my_str[:my_str.index(".")]
 print(my_str)
