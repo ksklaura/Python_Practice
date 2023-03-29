@@ -42,7 +42,7 @@ for student in range(1, 11):
     if student in absent:
         continue
     elif student in no_book:
-        print("오늘 수업은 여기까지. {0}번 학생은 교무실로 따라오세요.".format(student))
+        print("오늘 수업은 여기까지. {0}번 학생은 교무실로 따라오세요..".format(student))
         break
     print("{0}번 학생, 책 읽어보세요.".format(student))
 
